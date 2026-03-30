@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://dmp0wx1umovgc"]
+
+[ext_resource type="Script" uid="uid://bdbx1mhkqyydq" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D" unique_id=921496967]
+script = ExtResource("1_ig7tw")
+
+[node name="Line2D" type="Line2D" parent="." unique_id=415080560]
+unique_name_in_owner = true
+
+[node name="_1000" type="Label" parent="." unique_id=1469909114]
+unique_name_in_owner = true
+offset_right = 37.0
+offset_bottom = 23.0
+text = "1000"
+
+[node name="_900" type="Label" parent="." unique_id=1220046019]
+unique_name_in_owner = true
+offset_right = 40.0
+offset_bottom = 23.0
+text = "900"
+
+[node name="_800" type="Label" parent="." unique_id=850384111]
+unique_name_in_owner = true
+offset_right = 40.0
+offset_bottom = 23.0
+text = "800"
