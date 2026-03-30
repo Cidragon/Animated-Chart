@@ -6,7 +6,6 @@ var curve : Curve2D
 @onready var _1000: Label = %_1000
 @onready var _900: Label = %_900
 @onready var _800: Label = %_800
-@onready var timer: Timer = %Timer
 
 var is_chart_running : bool = false
 var start_margin_x : int = 40
